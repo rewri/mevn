@@ -1,0 +1,26 @@
+{
+  "name": "mevn",
+  "version": "1.0.0",
+  "description": "Mongo/Express/VueJS/Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewri/mevn.git"
+  },
+  "author": "Rérisson Fumes <rkfumes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rewri/mevn/issues"
+  },
+  "homepage": "https://github.com/rewri/mevn#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.1"
+  }
+}
